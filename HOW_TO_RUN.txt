@@ -1,0 +1,7 @@
+Do NOT double-click index.html (browsers block it from file://, the page stays blank).
+Run it through a local web server instead:
+
+  Python:   python -m http.server 8000      then open http://localhost:8000
+  Node:     npx serve .                      then open the address it prints
+
+For phone / PWA install it must be served over HTTPS (GitHub Pages, Netlify, etc.).
